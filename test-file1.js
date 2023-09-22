@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://github.com/jlcmar/IAT/blob/main/test-file2'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://github.com/jlcmar/IAT/blob/main/test-file2.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
