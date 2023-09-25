@@ -10,15 +10,11 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    //{image : 'black1.jpg'}, 
-    			//{image : 'black2.jpg'}, 
-    			//{image : 'black3.jpg'}, 
-    			//{image : 'black4.jpg'}, 
-			{image : 'blind001.png'}, 
-			{image : 'blind002.png'}, 
-			{image : 'blind003.png'}, 
-			{image : 'blind004.png'}, 				
-    			{image : 'black5.jpg'}, 
+    		    {image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+			{image : 'black5.jpg'}, 
     			{image : 'black6.jpg'}
 			], 
 			//Stimulus css (style)
@@ -43,8 +39,7 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 		},	
 
 		base_url : {//Where are your images at?
-			//image : 'https://baranan.github.io/minno-tasks/images/'
-			image : 'https://mstate-my.sharepoint.com/:f:/g/personal/jlc1470_msstate_edu/EkiTMPHCGkZKioYPdD53l58BDQ6iCFE8pwQEL7TfSA38Zg?e=AfaTvO'
-		} 
+			image : 'https://baranan.github.io/minno-tasks/images/'
+			} 
 	});
 });
