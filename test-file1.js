@@ -37,9 +37,50 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
-
+		attribute1 :
+		{
+			name : 'Incompetent',
+			title : {
+				media : {word : 'Incompetent'},
+				css : {color:'#0000FF','font-size':'1.8em'},
+				height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+				{word: 'awful'},
+				{word: 'failure'},
+				{word: 'agony'},
+				{word: 'hurt'},
+				{word: 'horrible'},
+				{word: 'terrible'},
+				{word: 'nasty'},
+				{word: 'evil'}
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+		},
+		attribute2 :
+		{
+			name : 'Competent',
+			title : {
+				media : {word : 'Competent'},
+				css : {color:'#0000FF','font-size':'1.8em'},
+				height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+				{word: 'laughter'},
+				{word: 'happy'},
+				{word: 'glorious'},
+				{word: 'joy'},
+				{word: 'wonderful'},
+				{word: 'peace'},
+				{word: 'pleasure'},
+				{word: 'love'}
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+		},
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
-			} 
+		} 
 	});
 });
