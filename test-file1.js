@@ -32,7 +32,7 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#31940F','font-size':'1.8em', 'width': '33%'}
 		},	
 		attribute1 :
 		{
@@ -43,14 +43,10 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word: 'awful'},
-				{word: 'failure'},
-				{word: 'agony'},
-				{word: 'hurt'},
-				{word: 'horrible'},
-				{word: 'terrible'},
-				{word: 'nasty'},
-				{word: 'evil'}
+				{word: 'Careless'},
+				{word: 'Incompetent'},
+				{word: 'Inefficient'},
+				{word: 'Unfit'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -64,14 +60,10 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word: 'laughter'},
-				{word: 'happy'},
-				{word: 'glorious'},
-				{word: 'joy'},
-				{word: 'wonderful'},
-				{word: 'peace'},
-				{word: 'pleasure'},
-				{word: 'love'}
+				{word: 'Capable'},
+				{word: 'Productive'},
+				{word: 'Qualified'},
+				{word: 'Skilled'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
