@@ -16,7 +16,7 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#31940F','font-size':'1.8em', 'width': '33%'}
 		},	
 		category2 :	{
 			name : 'Sighted', //Will appear in the data.
