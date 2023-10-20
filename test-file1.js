@@ -16,7 +16,7 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em','height':'85%'}
+			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'33%'}
 		},	
 		category2 :	{
 			name : 'Sighted', //Will appear in the data.
@@ -32,7 +32,7 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em','height':'85%'}
+			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'33%'}
 		},	
 		attribute1 :
 		{
