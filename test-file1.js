@@ -10,12 +10,10 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    {image : 'Blind001.png'}, 
+    			{image : 'Blind002.png'}, 
+    			{image : 'Blind003.png'}, 
+    			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -28,12 +26,11 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+    		    {image : 'Sighted001.png'}, 
+    			{image : 'Sighted002.png'}, 
+    			{image : 'Sighted003.2.png'}, 
+    			{image : 'Sighted004.2.png'}
+			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
@@ -80,7 +77,7 @@ define(['pipAPI', 'https://jlcmar.github.io/IAT/test-file2.js'], function(APICon
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://www.blind.msstate.edu/sites/www.blind.msstate.edu/files/2023-10/'
 		} 
 	});
 });
