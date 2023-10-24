@@ -7,7 +7,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		//Set the canvas of the task
 		canvas : {
 			maxWidth: 1000,
-			Width: 800,
+			Width: 858,
 			proportions : 0.7,
 			background: '#ffffff',
 			borderWidth: 5,
@@ -19,7 +19,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			name : 'Blind', //Will appear in the data.
 			title : {
 				media : {word : 'Blind'}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				css : {color:'#31940F','font-size':'2.2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -29,13 +29,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'2em','width':'33%'}
+			stimulusCss : {color:'#31940F','font-size':'2.2em','width':'33%'}
 		},	
 		category2 :	{
 			name : 'Sighted', //Will appear in the data.
 			title : {
 				media : {word : 'Sighted'}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				css : {color:'#31940F','font-size':'2.2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -45,7 +45,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'2em','width':'33%'}
+			stimulusCss : {color:'#31940F','font-size':'2.2em','width':'33%'}
 		},	
 		attribute1 :
 		{
