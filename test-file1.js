@@ -87,7 +87,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		//Show a reminder what to do on error, throughout the task
 		remindError : true,
 
-		remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
+		remindErrorText : '<p align="center" style="font-size:"0.8em"; font-family:arial">' +
 		'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
 		'Press the other key to continue.<p/>',
 
