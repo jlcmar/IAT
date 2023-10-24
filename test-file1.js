@@ -29,7 +29,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'33%'}
+			stimulusCss : {color:'#31940F','font-size':'2em','width':'33%'}
 		},	
 		category2 :	{
 			name : 'Sighted', //Will appear in the data.
@@ -45,14 +45,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'33%'}
+			stimulusCss : {color:'#31940F','font-size':'2em','width':'33%'}
 		},	
 		attribute1 :
 		{
 			name : 'Incompetent',
 			title : {
 				media : {word : 'Incompetent'},
-				css : {color:'#0000FF','font-size':'1.8em'},
+				css : {color:'#0000FF','font-size':'2em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -62,14 +62,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'Unfit'}
 			],
 			//Stimulus css
-			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			stimulusCss : {color:'#0000FF','font-size':'2.5em'}
 		},
 		attribute2 :
 		{
 			name : 'Competent',
 			title : {
 				media : {word : 'Competent'},
-				css : {color:'#0000FF','font-size':'1.8em'},
+				css : {color:'#0000FF','font-size':'2em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -79,7 +79,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'Skilled'}
 			],
 			//Stimulus css
-			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			stimulusCss : {color:'#0000FF','font-size':'2.5em'}
 		},
 		base_url : {//Where are your images at?
 			image : 'https://www.blind.msstate.edu/sites/www.blind.msstate.edu/files/2023-10/'
@@ -107,7 +107,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		keysCss : {'font-size':'1.0em', 'font-family':'courier', color:'#000000'},
 		//Text and style for the separator between the top and bottom category labels.
 		orText : 'or', 
-		orCss : {'font-size':'1.8em', color:'#000000'},
+		orCss : {'font-size':'2em', color:'#000000'},
 			
 		instWidth : 99, //The width of the instructions stimulus
 		
