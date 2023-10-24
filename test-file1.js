@@ -29,7 +29,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'40%'}
+			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'35%'}
 		},	
 		category2 :	{
 			name : 'Sighted', //Will appear in the data.
@@ -45,7 +45,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'40%'}
+			stimulusCss : {color:'#31940F','font-size':'1.8em','width':'35%'}
 		},	
 		attribute1 :
 		{
@@ -104,7 +104,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		//Text and style for key instructions displayed about the category labels.
 		leftKeyText : 'Press "E" for', 
 		rightKeyText : 'Press "I" for', 
-		keysCss : {'font-size':'1.8em', 'font-family':'courier', color:'#000000'},
+		keysCss : {'font-size':'1.0em', 'font-family':'courier', color:'#000000'},
 		//Text and style for the separator between the top and bottom category labels.
 		orText : 'or', 
 		orCss : {'font-size':'1.8em', color:'#000000'},
