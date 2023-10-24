@@ -6,7 +6,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
         	isTouch:false, //Set whether the task is on a touch device.
 		//Set the canvas of the task
 		canvas : {
-			maxWidth: 1725,
+			maxWidth: 1000,
+			Width: 800,
 			proportions : 0.7,
 			background: '#ffffff',
 			borderWidth: 5,
