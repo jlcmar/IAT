@@ -2,6 +2,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     var API = new APIConstructor();
 
 	return iatExtension({
+		fullscreen:false, //Should we show the task in full screen? A Qualtrics-only feature because in the usual Minno, we can go full-screen right at the beginning of the study.
+        	isTouch:false, //Set whether the task is on a touch device.
+		//Set the canvas of the task
+		canvas : {
+			maxWidth: 725,
+			proportions : 0.7,
+			background: '#ffffff',
+			borderWidth: 5,
+			canvasBackground: '#ffffff',
+			borderColor: 'lightblue'
+		},
+		//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 		category1 : {
 			name : 'Blind', //Will appear in the data.
 			title : {
@@ -10,7 +22,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'Blind001.png'}, 
+    		    	{image : 'Blind001.png'}, 
     			{image : 'Blind002.png'}, 
     			{image : 'Blind003.png'}, 
     			{image : 'Blind004.png'}
@@ -26,7 +38,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'Sighted001.png'}, 
+    		   	{image : 'Sighted001.png'}, 
     			{image : 'Sighted002.png'}, 
     			{image : 'Sighted003.2.png'}, 
     			{image : 'Sighted004.2.png'}
