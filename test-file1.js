@@ -29,7 +29,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'2.2em','width':'33%'}
+			stimulusCss : {color:'#31940F','font-size':'2.2em'}
+			//stimulusCss : {color:'#31940F','font-size':'2.2em','width':'33%'}
 		},	
 		category2 :	{
 			name : 'Sighted', //Will appear in the data.
@@ -45,7 +46,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'2.2em','width':'33%'}
+			stimulusCss : {color:'#31940F','font-size':'2.2em'}
+			//stimulusCss : {color:'#31940F','font-size':'2.2em','width':'33%'}
 		},	
 		attribute1 :
 		{
