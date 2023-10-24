@@ -86,6 +86,33 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		base_url : {//Where are your images at?
 			image : 'https://www.blind.msstate.edu/sites/www.blind.msstate.edu/files/2023-10/'
 		},
+		//Show a reminder what to do on error, throughout the task
+		remindError : true,
+
+		remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
+		'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+		'Press the other key to continue.<p/>',
+
+		remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
+		'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+		'Touch the other side to continue.<p/>',
+
+		errorCorrection : true, //Should participants correct error responses?
+		errorFBDuration : 500, //Duration of error feedback display (relevant only when errorCorrection is false)
+		ITIDuration : 250, //Duration between trials.
+
+		fontColor : '#000000', //The default color used for printed messages.
+			
+		//Text and style for key instructions displayed about the category labels.
+		leftKeyText : 'Press "E" for', 
+		rightKeyText : 'Press "I" for', 
+		keysCss : {'font-size':'1.8em', 'font-family':'courier', color:'#000000'},
+		//Text and style for the separator between the top and bottom category labels.
+		orText : 'or', 
+		orCss : {'font-size':'1.8em', color:'#000000'},
+			
+		instWidth : 99, //The width of the instructions stimulus
+		
 		finalText : 'Press space to exit the test', 
 		finalTouchText : 'Touch the bottom green area to exit the test',
 		showDebriefing:true, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
