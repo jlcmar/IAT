@@ -23,7 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{image : 'Blind001.2.png'}, 
+    		    	{image : 'Blind001.2_0.png'}, 
     			{image : 'Blind002.png'}, 
     			{image : 'Blind003.2.png'}, 
     			{image : 'Blind004.png'}
