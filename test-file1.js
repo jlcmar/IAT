@@ -23,9 +23,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{image : 'Blind001.png'}, 
+    		    	{image : 'Blind001.2.png'}, 
     			{image : 'Blind002.png'}, 
-    			{image : 'Blind003.png'}, 
+    			{image : 'Blind003.2.png'}, 
     			{image : 'Blind004.png'}
 			], 
 			//Stimulus css (style)
@@ -41,7 +41,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		   	{image : 'Sighted001.png'}, 
     			{image : 'Sighted002.png'}, 
-    			{image : 'Sighted003.2.png'}, 
+    			{image : 'Sighted003.3.png'}, 
     			{image : 'Sighted004.2.png'}
 			], 
 			//Stimulus css
@@ -82,7 +82,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			stimulusCss : {color:'#0000FF','font-size':'2.5em'}
 		},
 		base_url : {//Where are your images at?
-			image : 'https://www.blind.msstate.edu/sites/www.blind.msstate.edu/files/2023-10/'
+			image : 'https://www.blind.msstate.edu/sites/www.blind.msstate.edu/files/2023-11/'
 		},
 		//Show a reminder what to do on error, throughout the task
 		remindError : true,
